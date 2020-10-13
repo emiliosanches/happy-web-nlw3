@@ -2,6 +2,8 @@
     width: 100vw; height: 100vh;
     background: linear-gradient(329.54deg, #29B6D1 0%, #00C7C7 100%);
 
+    padding: 50px;
+
     display: flex;
     justify-content: center;
     align-items: center;
@@ -22,6 +24,7 @@
     flex-direction: column;
 
     background: url('../../images/landing.svg') no-repeat 80% center;
+    background-size: auto 100%;
 }
 
 #page-landing .content-wrapper main {

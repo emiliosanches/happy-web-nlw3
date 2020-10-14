@@ -4,6 +4,8 @@ import { Link } from 'react-router-dom';
 
 import logoImg from '../../images/logo.svg';
 
+import '../../styles/pages/landing.css';
+
 export const LandingPage: React.FC = () => {
     return (
         <div id="page-landing">

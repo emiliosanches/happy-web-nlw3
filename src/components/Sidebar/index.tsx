@@ -7,13 +7,13 @@ import '../../styles/components/sidebar.css'
 import mapMarkerImg from '../../images/map-marker.svg';
 
 export const Sidebar: React.FC = () => {
-    const { replace } = useHistory();
+    const { push } = useHistory();
     return (
         <aside className="app-sidebar">
             <img src={mapMarkerImg} alt="Happy" />
 
             <footer>
-                <button type="button" onClick={() => replace('/app')}>
+                <button type="button" onClick={() => push('/app')}>
                     <FiArrowLeft size={24} color="#FFF" />
                 </button>
             </footer>

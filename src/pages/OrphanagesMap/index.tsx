@@ -50,7 +50,7 @@ export const OrphanagesMap: React.FC = () => {
             </aside>
 
             <Map 
-                center={[-21.6877771, -51.0768091]}
+                center={[-21.6870000, -51.0730000]}
                 zoom={15}
                 style={{ width: '100%', height: '100%' }}
             >

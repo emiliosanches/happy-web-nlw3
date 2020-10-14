@@ -10,8 +10,8 @@ export const Router = () => (
         <Switch>    
             <Route path="/" exact component={LandingPage}/>
             <Route path="/app" component={OrphanagesMap} />
-            <Route path="/app" component={Orphanage} />
-            <Route path="/app" component={CreateOrphanage} />
+            <Route path="/ophanages/create" component={CreateOrphanage} />
+            <Route path="/ophanages/:id" component={Orphanage} />
         </Switch>
     </BrowserRouter>
 )

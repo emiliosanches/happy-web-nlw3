@@ -14,7 +14,7 @@ interface OrphanageData {
     latitude: number;
     longitude: number;
     name: string;
-    description: string;
+    about: string;
     instructions: string;
     opening_hours: string;
     open_on_weekends: string;
@@ -67,7 +67,7 @@ export default function Orphanage() {
                     
                     <div className="orphanage-details-content">
                         <h1>{orphanageData.name}</h1>
-                        <p>{orphanageData.description}</p>
+                        <p>{orphanageData.about}</p>
 
                         <div className="map-container">
                             <Map 
